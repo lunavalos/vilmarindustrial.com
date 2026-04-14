@@ -11,8 +11,8 @@ export default function Nosotros() {
     <>
       <Navbar />
       <main>
-        <PageHero 
-          title="Sobre Nosotros" 
+        <PageHero
+          title="Sobre Nosotros"
           subtitle="Conoce la historia, misión y visión de VILMAR Industrial. Nuestra pasión es la excelencia técnica."
         />
 
@@ -22,17 +22,17 @@ export default function Nosotros() {
               <div className={styles.content}>
                 <h2 className={styles.sectionTitle}>Nuestra Historia</h2>
                 <p>
-                  VILMAR es una empresa 100% mexicana ubicada en Saltillo, Coahuila, fundada en el año 2016. 
-                  Desde nuestros inicios, nos hemos enfocado en brindar soluciones integrales para la industria, 
+                  VILMAR es una empresa 100% mexicana ubicada en Saltillo, Coahuila, fundada en el año 2016.
+                  Desde nuestros inicios, nos hemos enfocado en brindar soluciones integrales para la industria,
                   combinando experiencia técnica con un firme compromiso con la calidad.
                 </p>
                 <p>
-                  Contamos con una variedad de máquinas de última generación necesarias para brindar a nuestros 
-                  clientes la seguridad y calidad que sus instalaciones requieren. Nuestro principal objetivo 
-                  es satisfacer las necesidades de nuestros clientes a su entera satisfacción, garantizando 
+                  Contamos con una variedad de máquinas de última generación necesarias para brindar a nuestros
+                  clientes la seguridad y calidad que sus instalaciones requieren. Nuestro principal objetivo
+                  es satisfacer las necesidades de nuestros clientes a su entera satisfacción, garantizando
                   cada trabajo con precisión y buen funcionamiento.
                 </p>
-                
+
                 <div className={styles.statsGrid}>
                   <div className={styles.statItem}>
                     <Award size={32} />
@@ -53,11 +53,11 @@ export default function Nosotros() {
               </div>
 
               <div className={styles.imageCol}>
-                <Image 
-                  src="/images/imagenes variadas/logoN.webp" 
-                  alt="Equipo VILMAR" 
-                  width={600} 
-                  height={450} 
+                <Image
+                  src="/images/imagenes variadas/logoN.webp"
+                  alt="Equipo VILMAR"
+                  width={600}
+                  height={450}
                   className={styles.image}
                 />
               </div>
@@ -74,8 +74,8 @@ export default function Nosotros() {
                 </div>
                 <h3>Nuestra Misión</h3>
                 <p>
-                  Proveer materiales y equipos para la industria, con respaldo de ingeniería, 
-                  calidad, servicio, rapidez, precios justos e inventarios adecuados bajo 
+                  Proveer materiales y equipos para la industria, con respaldo de ingeniería,
+                  calidad, servicio, rapidez, precios justos e inventarios adecuados bajo
                   normas y requerimientos que dan soluciones a las necesidades del cliente.
                 </p>
               </div>
@@ -86,8 +86,8 @@ export default function Nosotros() {
                 </div>
                 <h3>Nuestra Visión</h3>
                 <p>
-                  Ser líderes del mercado local con la mayor oferta de servicios de 
-                  metalmecánica, junto con el compromiso continuo de satisfacer al cliente, 
+                  Ser líderes del mercado local con la mayor oferta de servicios de
+                  metalmecánica, junto con el compromiso continuo de satisfacer al cliente,
                   garantizar la calidad, control y mejora en todos nuestros procesos.
                 </p>
               </div>
@@ -99,7 +99,7 @@ export default function Nosotros() {
           <div className="container">
             <h2 className={styles.sectionTitle}>Nuestra Tecnología</h2>
             <p style={{ color: "var(--text-muted)", fontSize: "1.1rem", maxWidth: "800px" }}>
-              Contamos con una amplia gama de máquinas de última generación para garantizar 
+              Contamos con una amplia gama de máquinas de última generación para garantizar
               la máxima precisión en todos nuestros procesos industriales.
             </p>
 
@@ -134,7 +134,7 @@ export default function Nosotros() {
               <div className={styles.presenceContent}>
                 <h2 className={styles.sectionTitle}>Presencia en México y Chile</h2>
                 <p style={{ color: "var(--text-muted)", fontSize: "1.1rem", marginBottom: "2.5rem" }}>
-                  Nuestra capacidad operativa nos permite atender proyectos a nivel nacional e internacional, 
+                  Nuestra capacidad operativa nos permite atender proyectos a nivel nacional e internacional,
                   asegurando la misma calidad y compromiso en cada región donde operamos.
                 </p>
 
@@ -156,18 +156,18 @@ export default function Nosotros() {
               </div>
 
               <div className={styles.imageCol}>
-                <Image 
-                  src="/images/imagenes variadas/servicio1.jpg" 
-                  alt="Operaciones VILMAR" 
-                  width={600} 
-                  height={400} 
+                <Image
+                  src="/images/imagenes variadas/presencia.webp"
+                  alt="Operaciones VILMAR"
+                  width={600}
+                  height={400}
                   className={styles.image}
                 />
               </div>
             </div>
           </div>
         </section>
-        
+
         <Distributors />
       </main>
       <Footer />
