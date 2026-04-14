@@ -1,0 +1,146 @@
+.about {
+  background-color: var(--white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.imageCol {
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+  padding: 1rem;
+}
+
+.imageWrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+  background: var(--light);
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.mainImg {
+  position: relative;
+  z-index: 2;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-lg);
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.experienceCard {
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+  background: var(--primary);
+  color: var(--white);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+  box-shadow: var(--shadow-lg);
+}
+
+.expNumber {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.expText {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.features li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.features span {
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 991px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  .contentCol {
+    text-align: center;
+  }
+  
+  .features {
+    align-items: flex-start;
+    text-align: left;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .btns {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .experienceCard {
+    padding: 1rem;
+    bottom: -1rem;
+  }
+}

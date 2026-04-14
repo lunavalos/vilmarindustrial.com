@@ -1,0 +1,130 @@
+.distributors {
+  padding: 6rem 0;
+  background-color: var(--white);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.subtitle {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--dark);
+}
+
+.ticker {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+  overflow: hidden;
+}
+
+.tickerTrack {
+  display: flex;
+  width: max-content;
+  animation: scroll 40s linear infinite;
+  gap: 2rem;
+}
+
+.ticker:hover .tickerTrack {
+  animation-play-state: paused;
+}
+
+.carouselItem {
+  flex-shrink: 0;
+  width: 250px;
+}
+
+.clientCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background: var(--bg-secondary);
+  border-radius: 1rem;
+  transition: var(--transition-normal);
+  border: 1px solid transparent;
+  width: 100%;
+}
+
+.clientCard:hover {
+  background: var(--white);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+}
+
+.logoWrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: var(--transition-normal);
+}
+
+.clientCard:hover .logo {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.clientName {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--secondary);
+  text-align: center;
+  transition: var(--transition-fast);
+}
+
+.clientCard:hover .clientName {
+  color: var(--primary);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 4));
+  }
+}
+
+@media (max-width: 768px) {
+  .carouselItem {
+    width: 200px;
+  }
+  
+  .tickerTrack {
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}

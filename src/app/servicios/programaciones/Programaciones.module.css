@@ -1,0 +1,141 @@
+.details {
+  background-color: var(--white);
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 5rem;
+  align-items: flex-start;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.introContent p {
+  color: var(--text-muted);
+  font-size: 1.15rem;
+  margin-bottom: 3rem;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.serviceItem {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.iconBox {
+  width: 65px;
+  height: 65px;
+  background: var(--light);
+  color: var(--primary);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.serviceItem h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.serviceItem p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.ignitionCard {
+  background: var(--dark);
+  color: var(--white);
+  padding: 4rem 3rem;
+  border-radius: 2rem;
+  box-shadow: var(--shadow-lg);
+  position: sticky;
+  top: 100px;
+}
+
+.ignitionIcon {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  color: var(--primary);
+}
+
+.ignitionCard h3 {
+  color: var(--white);
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.ignitionCard p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+}
+
+.ignitionList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.ignitionList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.ignitionList svg {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.badge {
+  display: inline-block;
+  background: var(--primary);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 991px) {
+  .mainGrid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  .ignitionCard {
+    position: static;
+  }
+}
+
+@media (max-width: 576px) {
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ignitionCard {
+    padding: 3rem 1.5rem;
+  }
+}
