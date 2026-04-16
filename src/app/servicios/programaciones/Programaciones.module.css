@@ -104,7 +104,7 @@
 }
 
 .ignitionList svg {
-  color: var(--primary);
+  color: var(--white);
   flex-shrink: 0;
 }
 
