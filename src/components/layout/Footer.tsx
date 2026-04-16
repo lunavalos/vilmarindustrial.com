@@ -17,7 +17,15 @@ const Footer = () => {
           {/* Company Info */}
           <div className={styles.col}>
             <div className={styles.footerBrand}>
-              VILMAR Industrial
+              <Link href="/" className={styles.logo}>
+                <Image
+                  src="/vilmar-blanco.png"
+                  alt="VILMAR Industrial - Expertos en Maquinados y EPP"
+                  width={185}
+                  height={70}
+                  priority
+                />
+              </Link>
             </div>
             <p className={styles.description}>
               VILMAR es una empresa 100% mexicana ubicada en Saltillo, Coahuila,

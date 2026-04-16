@@ -82,7 +82,8 @@
   gap: 3rem;
 }
 
-.missionCard, .visionCard {
+.missionCard,
+.visionCard {
   background: var(--white);
   padding: 4rem 3rem;
   border-radius: 2rem;
@@ -92,7 +93,8 @@
   border: 1px solid transparent;
 }
 
-.missionCard:hover, .visionCard:hover {
+.missionCard:hover,
+.visionCard:hover {
   transform: translateY(-10px);
   box-shadow: var(--shadow-lg);
   border-color: var(--primary);
@@ -101,21 +103,24 @@
 .iconCircle {
   width: 80px;
   height: 80px;
-  background: var(--light);
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--accent);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 2rem;
+  box-shadow: var(--shadow-md);
 }
 
-.missionCard h3, .visionCard h3 {
+.missionCard h3,
+.visionCard h3 {
   font-size: 1.75rem;
   margin-bottom: 1.5rem;
 }
 
-.missionCard p, .visionCard p {
+.missionCard p,
+.visionCard p {
   color: var(--text-muted);
   font-size: 1.05rem;
   line-height: 1.8;
@@ -126,7 +131,7 @@
     grid-template-columns: 1fr;
     gap: 4rem;
   }
-  
+
   .cardsGrid {
     grid-template-columns: 1fr;
   }
@@ -136,8 +141,9 @@
   .statsGrid {
     grid-template-columns: 1fr;
   }
-  
-  .missionCard, .visionCard {
+
+  .missionCard,
+  .visionCard {
     padding: 3rem 1.5rem;
   }
 }
@@ -235,12 +241,12 @@
   .statsGrid {
     grid-template-columns: 1fr;
   }
-  
+
   .presenceGrid {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  
+
   .regions {
     grid-template-columns: 1fr;
   }

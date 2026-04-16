@@ -23,306 +23,348 @@ interface CategoryData {
 const CATEGORIES_DATA: Record<string, CategoryData> = {
   "cascos": {
     title: "Cascos de Seguridad",
-    description: "Protección craneal diseñada para resistir impactos y penetraciones en entornos industriales exigentes. Equipos certificados con los más altos estándares de seguridad.",
-    heroImage: "/images/productos/productos%20index/cascos/flamin%20casco%20ala%20completa1.webp",
+    description: "Protección craneal de alto rendimiento diseñada para resistir impactos y penetraciones en los entornos industriales más exigentes. Seguridad certificada para tu equipo.",
+    heroImage: "/images/productos/productos index/cascos/flamin casco ala completa1.webp",
     items: [
       {
-        name: "FLAMIN Casco Ala Completa con Suspensión GO CHOCLO",
-        desc: "Casco de protección superior con diseño de ala completa que ofrece una cobertura total y una suspensión ajustable para máximo confort durante jornadas extensas.",
-        specs: ["Ala completa para protección 360°", "Suspensión GO CHOCLO ajustable", "Alta resistencia a impactos laterales"],
-        image: "/images/productos/productos%20index/cascos/flamin%20casco%20ala%20completa1.webp"
+        name: "FLAMIN Casco Ala Completa con Suspensión",
+        desc: "Protección integral de 360 grados con diseño de ala completa. Su suspensión ajustable garantiza estabilidad y confort superior durante jornadas prolongadas.",
+        specs: ["Protección periférica total", "Suspensión ergonómica ajustable", "Alta resistencia técnica a impactos"],
+        image: "/images/productos/productos index/cascos/flamin casco ala completa1.webp"
       },
       {
-        name: "CASCO MSA CACHUCHA CON MATRACA",
-        desc: "El estándar de la industria en cascos tipo cachucha. Cuenta con una suspensión de matraca que premite un ajuste rápido y seguro con una sola mano.",
-        specs: ["Diseño tipo cachucha aerodinámico", "Suspensión de matraca de alta precisión", "Dieléctrico Clase E"],
-        image: "/images/productos/productos%20index/cascos/casco%20mas%20cachuca1.webp"
+        name: "Casco MSA Cachucha con Matraca",
+        desc: "El referente de seguridad industrial. Diseño tipo cachucha con ajuste de matraca de alta precisión para un sellado firme y seguro bajo cualquier condición.",
+        specs: ["Ajuste rápido con una mano", "Dieléctrico de alta resistencia", "Cumple normas internacionales de seguridad"],
+        image: "/images/productos/productos index/cascos/casco mas cachuca1.webp"
       },
       {
-        name: "Bota de Trabajo Venture",
-        desc: "Calzado de seguridad tipo bota diseñado para terrenos difíciles y trabajos pesados, proporcionando tracción y protección técnica avanzada.",
-        specs: ["Corte de micropiel hidrofugada", "Suela antiderrapante SBR", "Protección contra abrasión y humedad"],
-        image: "/images/productos/productos%20index/cascos/bota%20de%20trabajo%20venture1.webp"
-      },
-      {
-        name: "Casco MSA con Matraca",
-        desc: "Combinación ideal de ligereza y robustez. Su sistema de ajuste de matraca asegura que el casco se mantenga firmemente en su lugar aun en movimientos bruscos.",
-        specs: ["Material: Polietileno de alta densidad", "Ajuste de matraca ergonómico", "Cumple con ANSI/ISEA Z89.1"],
-        image: "/images/productos/productos%20index/cascos/casco%20mas%20cachuca1.webp"
+        name: "Casco Industrial Modular",
+        desc: "Versatilidad y protección en un solo equipo. Diseñado en polietileno de alta densidad, permite integrar fácilmente accesorios de protección facial y auditiva.",
+        specs: ["Diseño modular adaptable", "Material de polietileno premium", "Soporte para múltiples accesorios"],
+        image: "/images/productos/productos index/cascos/Casco Industrial Modular.webp"
       }
     ]
   },
   "chalecos": {
     title: "Chalecos de Seguridad",
-    description: "Prendas de alta visibilidad diseñadas para garantizar la seguridad del personal en áreas de tráfico y construcción. Cumplen con normativas internacionales de reflectividad.",
-    heroImage: "/images/productos/productos%20index/chalecos/CH.webp",
+    description: "Prendas de alta visibilidad que combinan seguridad y funcionalidad. Diseñados bajo normativas internacionales para garantizar la máxima protección en áreas de riesgo.",
+    heroImage: "/images/productos/productos index/chalecos/CH.webp",
     items: [
       {
         name: "Chaleco de Supervisor",
-        desc: "Chaleco premium fabricado en gabardina resistente. Incluye múltiples bolsillos funcionales y porta radio, ideal para ingenieros y personal de supervisión.",
-        specs: ["Tela: Gabardina 100% algodón", "Múltiples bolsillos de carga", "Cintas reflejantes de alta visibilidad"],
-        image: "/images/productos/productos%20index/chalecos/CH%20de%20supervisor.webp"
+        desc: "Elegancia y funcionalidad para personal de mando. Fabricado en gabardina de alta resistencia con multibolsillos estratégicos para herramientas y comunicación.",
+        specs: ["Gabardina premium 100% algodón", "Compartimentos de carga optimizados", "Cintas reflejantes de alta definición"],
+        image: "/images/fotos nuevas/chalecos/Chaleco de Supervisor.webp"
       },
       {
-        name: "Chaleco Brigadista",
-        desc: "Diseñado para personal de primera respuesta. Fabricado en malla de alta resistencia con cintas reflejantes de 2 pulgadas para visibilidad 360 grados.",
-        specs: ["Material: Malla de poliéster reforzada", "Cinta reflejante grado ingeniería", "Alta transpirabilidad"],
-        image: "/images/productos/productos%20index/chalecos/CH%20brigadista.webp"
+        name: "Chaleco Brigadista Profesional",
+        desc: "Equipo esencial para unidades de emergencia. Diseño robusto con visibilidad de 360 grados y materiales transpirables para máxima agilidad operativa.",
+        specs: ["Malla reforzada de alta duración", "Visibilidad crítica 360°", "Ligero y altamente transpirable"],
+        image: "/images/fotos nuevas/chalecos/Chaleco Brigadista.webp"
       },
       {
-        name: "Chaleco RIP STOP",
-        desc: "Construido con tecnología de tejido antidesgarro Rip Stop, este chaleco ofrece durabilidad extrema en entornos donde el roce constante es inevitable.",
-        specs: ["Tejido Rip Stop Ultra-Resistente", "Reflejantes de PVC", "Cierre de seguridad frontal"],
-        image: "/images/productos/productos%20index/chalecos/CH%20rip%20stop.webp"
+        name: "Chaleco RIP STOP Alta Durabilidad",
+        desc: "Tecnología antidesgarro para los entornos más hostiles. Ideal para trabajos donde el desgaste por abrasión es una constante.",
+        specs: ["Tejido técnico Rip Stop", "Resistencia extrema a rasgaduras", "Reflejantes de alta durabilidad"],
+        image: "/images/fotos nuevas/chalecos/Chaleco RIP STOP.webp"
+      },
+      {
+        name: "Chaleco Suave Comfort",
+        desc: "Protección ligera con tecnología Soft Shell. Ofrece repelencia a líquidos y un ajuste ergonómico que mejora la movilidad del usuario.",
+        specs: ["Tecnología Soft Shell", "Textil repelente a líquidos", "Diseño ergonómico y moderno"],
+        image: "/images/fotos nuevas/chalecos/Chaleco Suave.webp"
+      },
+      {
+        name: "Chaleco Cuadrado Industrial",
+        desc: "Diseño clásico de gabardina con corte cuadrado para mayor amplitud de movimiento. Versatilidad probada en procesos logísticos e industriales.",
+        specs: ["Corte cuadrado para libertad de movimiento", "Cintas reflejantes de seguridad", "Acabado industrial reforzado"],
+        image: "/images/fotos nuevas/chalecos/Chaleco Cuadrado.webp"
+      },
+      {
+        name: "Chaleco de Malla Transpirable",
+        desc: "Máxima ventilación para climas cálidos o esfuerzos físicos intensos. No compromete la visibilidad ni la seguridad del operador.",
+        specs: ["Malla técnica ultra-transpirable", "Diseño abierto funcional", "Cintas de alta visibilidad"],
+        image: "/images/fotos nuevas/chalecos/Chaleco de Malla.webp"
       },
       {
         name: "Chaleco Antirreflejante",
-        desc: "Equipamiento de seguridad esencial con cintas de contraste para destacar en condiciones de baja luminosidad y entornos industriales complejos.",
-        specs: ["Diseño ergonómico y ligero", "Alta visibilidad en entornos oscuros", "Cintas reflejantes certificadas"],
-        image: "/images/productos/productos%20index/chalecos/CH.webp"
+        desc: "Optimizado para entornos industriales complejos con baja iluminación. Destaca la silueta del personal para prevenir accidentes en áreas de tráfico.",
+        specs: ["Cintas de contraste de alta visibilidad", "Diseño ergonómico ligero", "Certificado para seguridad vial"],
+        image: "/images/fotos nuevas/chalecos/Chaleco Antirreflejante.webp"
       }
     ]
   },
   "lentes": {
     title: "Protección Ocular",
-    description: "Protección ocular certificada contra impactos, radiación UV y agentes químicos. Tecnología de vanguardia para una visión clara y segura.",
-    heroImage: "/images/productos/productos%20index/lentes%20de%20seguridad.webp",
+    description: "Visión clara y protegida con tecnología de punta. Lentes certificados contra impactos, rayos UV y empañamiento para un rendimiento visual superior.",
+    heroImage: "/images/productos/productos index/lentes de seguridad.webp",
     items: [
       {
-        name: "Spearfish® Clear Anti-Fog Lens",
-        desc: "Lentes de seguridad con mica transparente y tratamiento antivaho de alto rendimiento. Su montura flexible se ajusta de forma natural a cualquier tipo de rostro.",
-        specs: ["Mica de policarbonato transparente", "Tratamiento Anti-Fog (Antiempañante)", "Protección UV 99.9%"],
-        image: "/images/productos/productos%20index/lentes%20de%20seguridad/Spearfish%20Clear%20Anti-FogLens.webp"
+        name: "Spearfish® Clear Anti-Fog",
+        desc: "Claridad absoluta con tratamiento antiempañante. Su montura flexible de TPR se adapta ergonómicamente a cualquier perfil facial.",
+        specs: ["Mica de policarbonato óptica", "Tratamiento Anti-Fog avanzado", "Patillas ventiladas para mayor confort"],
+        image: "/images/fotos nuevas/lentes de seguridad/Spearfish Clear Anti-FogLens.webp"
       },
       {
-        name: "Spearfish® Smoke Anti-Fog Lens, Shiny Black Frame",
-        desc: "Diseño deportivo con mica oscura (Smoke) para trabajos en exteriores. Incorpora extremos de TPR en las patillas para evitar deslizamientos involuntarios.",
-        specs: ["Mica Smoke (Humo) antirreflejo", "Acabado de montura: Negro brillante", "Certificación ANSI Z87.1+"],
-        image: "/images/productos/productos%20index/lentes%20de%20seguridad/Spearfish%20SmokeAnti-FogLens,%20ShinyBlack%20Fram.webp"
+        name: "Spearfish® Smoke Anti-Fog",
+        desc: "Protección solar e industrial con diseño deportivo. Ideal para trabajos exteriores, reduciendo la fatiga ocular por deslumbramiento.",
+        specs: ["Mica Smoke de alto contraste", "Montura protectora de cara completa", "Acabado premium antideslizante"],
+        image: "/images/fotos nuevas/lentes de seguridad/Spearfish SmokeAnti-FogLens, ShinyBlack Fram.webp"
       },
       {
         name: "Sobrelentes 3M™ SecureFit™",
-        desc: "Permiten el uso simultáneo de lentes graduados. La tecnología Pressure Diffusion de 3M difunde la presión sobre la oreja para un ajuste increíblemente cómodo.",
-        specs: ["Compatible con lentes de prescripción", "Tecnología Pressure Diffusion", "Ultraligeros"],
-        image: "/images/productos/productos%20index/lentes%20de%20seguridad/Sobrelentes%203M%20SecureFit.webp"
+        desc: "Ajuste automático y perfecto sobre tus lentes graduados. Tecnología Pressure Diffusion que elimina puntos de presión molestos.",
+        specs: ["Compatible con lentes de prescripción", "Ajuste automático Pressure Diffusion", "Protección lateral integrada"],
+        image: "/images/fotos nuevas/lentes de seguridad/Sobrelentes 3M SecureFit.webp"
       },
       {
-        name: "Antiempaño 3M™ Scotchgard™",
-        desc: "Equipados con el recubrimiento Scotchgard™ de 3M, estos lentes resisten el empañamiento por más tiempo que los recubrimientos tradicionales, incluso tras lavadas.",
-        specs: ["Recubrimiento Scotchgard™ Premium", "Resistencia superior a rayaduras", "Ideal para ambientes húmedos"],
-        image: "/images/productos/productos%20index/lentes%20de%20seguridad/Antiempao%203m%20scotchgard.webp"
+        name: "Protección 3M™ Scotchgard™",
+        desc: "El estándar más alto en visibilidad. Recubrimiento que resiste el empañamiento incluso en los ambientes más húmedos y calurosos.",
+        specs: ["Recubrimiento Scotchgard™ de larga duración", "Máxima resistencia a rayaduras", "Ideal para procesos críticos"],
+        image: "/images/fotos nuevas/lentes de seguridad/Antiempaño 3m scotchgard.webp"
       }
     ]
   },
   "zapatos": {
     title: "Calzado Industrial",
-    description: "Calzado industrial con certificación dieléctrica, diseñado para el confort y la protección total del pie en largas jornadas laborales.",
-    heroImage: "/images/productos/productos%20index/zapatos%20de%20seguridad.webp",
+    description: "Seguridad y ergonomía en cada paso. Nuestro calzado cuenta con certificación dieléctrica y punteras de protección para garantizar el bienestar del personal durante toda la jornada.",
+    heroImage: "/images/productos/productos index/zapatos de seguridad.webp",
     items: [
       {
-        name: "DIPPER",
-        desc: "Calzado tipo choclo ergonómico con corte de cuero genuino y forros transpirables. Ofrece un balance perfecto entre protección industrial y estilo casual.",
-        specs: ["Corte: Piel genuina / Flamingo Choclo", "Dieléctrico Clase E", "Casco de policarbonato"],
-        image: "/images/productos/productos%20index/zapatos%20de%20seguridad/Flamingo%20Choclo.webp"
+        name: "Zapato Industrial DIPPER",
+        desc: "Balance ideal entre protección técnica y confort. Su diseño ergonómico y materiales transpirables lo hacen perfecto para supervisión y planta.",
+        specs: ["Corte de piel genuina", "Dieléctrico certificado Clase E", "Casco de policarbonato ligero"],
+        image: "/images/productos/productos index/zapatos de seguridad/Flamingo Choclo.webp"
       },
       {
-        name: "CONQUEROR",
-        desc: "Zapato industrial de alto desempeño con suela de tracción extrema. Su diseño de perfil bajo facilita la movilidad sin comprometer la seguridad del pie.",
-        specs: ["Diseño Spyder Low ergonómico", "Suela de inyección directa", "Alta resistencia a aceites"],
-        image: "/images/productos/productos%20index/zapatos%20de%20seguridad/Calzado%20industrial%20Spyder%20Low.webp"
+        name: "Calzado de Seguridad CONQUEROR",
+        desc: "Diseño de perfil bajo que maximiza la movilidad sin sacrificar la resistencia. Suela con tracción superior para superficies industriales complejas.",
+        specs: ["Diseño Spyder Low aerodinámico", "Alta resistencia a aceites y químicos", "Casco de protección técnica"],
+        image: "/images/productos/productos index/zapatos de seguridad/Calzado industrial Spyder Low.webp"
+      },
+      {
+        name: "Tenis de Seguridad Quantum Dama",
+        desc: "Protección técnica con diseño específico para dama. Fabricado en micropiel Nubuck para mayor suavidad y ligereza sin perder seguridad.",
+        specs: ["Corte de Micropiel Nubuck", "Suela PU/TPU flexible", "Casco de seguridad de aluminio"],
+        image: "/images/productos/productos index/zapatos de seguridad/Tenis de segurid quantum dama.webp"
+      },
+      {
+        name: "Tenis de Seguridad Force",
+        desc: "La evolución del calzado de seguridad. Comodidad de un calzado deportivo con la protección de un zapato industrial de alto desempeño.",
+        specs: ["Micropiel Performance Suede", "Suela PU/TPU de alta tracción", "100% Dieléctrico con casco de aluminio"],
+        image: "/images/productos/productos index/zapatos de seguridad/Tenis de seguridad Force.webp"
+      },
+      {
+        name: "Bota de Trabajo Venture",
+        desc: "Diseñada para terrenos difíciles. Su construcción hidrofugada y suela antiderrapante garantizan seguridad en condiciones húmedas o aceitosas.",
+        specs: ["Micropiel hidrofugada de alta calidad", "Suela de hule SBR antiderrapante", "Protección contra abrasión"],
+        image: "/images/productos/productos index/zapatos de seguridad/Bota de trabajajo venture.webp"
+      },
+      {
+        name: "Choclo Industrial Sunbird",
+        desc: "Línea industrial y de oficina con diseño ergonómico. Ofrece un balance perfecto entre protección técnica y una estética profesional para supervisión.",
+        specs: ["Puntera de protección certificada", "Dieléctrico con protección integral", "Suela de alta tracción y durabilidad"],
+        image: "/images/productos/productos index/zapatos de seguridad/Sunbird.webp"
       },
       {
         name: "Bota de Seguridad Standard",
-        desc: "Bota industrial clásica con refuerzo Bumper en la puntera para resistir impactos frontales. Proporciona estabilidad y protección en todo tipo de superficies.",
-        specs: ["Refuerzo Bumper en puntera", "Norma NOM-113-STPS", "Plantilla confort antifatiga"],
-        image: "/images/productos/productos%20index/zapatos%20de%20seguridad/CL%20Bumper.webp"
-      },
-      {
-        name: "Bota de Trabajo de Seguridad",
-        desc: "Bota de seguridad premium con tecnología Air Flow para mantener el pie seco. Es el calzado ideal para entornos que requieren máxima protección técnica.",
-        specs: ["Tecnología 3D Air Flow", "Ligero y flexible", "Casco de aluminio"],
-        image: "/images/productos/productos%20index/zapatos%20de%20seguridad/Tenis%20de%20segurid%20quantum%20dama.webp"
+        desc: "Protección robusta con refuerzo Bumper. Diseñada para resistir impactos frontales y proporcionar estabilidad en terrenos irregulares.",
+        specs: ["Refuerzo Bumper en puntera", "Certificación NOM-113-STPS", "Plantilla confort antifatiga"],
+        image: "/images/productos/productos index/zapatos de seguridad/CL Bumper.webp"
       }
     ]
   },
   "guantes": {
     title: "Guantes de Seguridad",
-    description: "Equipamiento de protección manual para diversos riesgos industriales, desde protección química hasta resistencia al corte de alto nivel.",
-    heroImage: "/images/productos/productos%20index/guantes%20de%20seguridad.webp",
+    description: "Protección manual especializada para cada riesgo. Desde resistencia química hasta protección de alto nivel contra cortes y abrasiones.",
+    heroImage: "/images/productos/productos index/guantes de seguridad.webp",
     items: [
       {
-        name: "Guante de Nitrilo Azul",
-        desc: "Alta resistencia química y punción. Ideal para manejo de aceites, solventes y procesos de limpieza técnica.",
-        specs: ["Material: Nitrilo 100%", "Acabado texturizado para mejor agarre", "Libre de látex"],
-        image: "/images/productos/productos%20index/Guantes%20de%20seguridad/Guante%20de%20Nitrilo%20Azul.png"
+        name: "Guante Resistente al Corte A5",
+        desc: "Protección de vanguardia con tecnología Tuffalene. Ideal para el manejo de piezas con bordes afilados y procesos mecánicos de alto riesgo.",
+        specs: ["Nivel de corte A5 certificado", "Tuffalene UHMWPE de alta densidad", "Excelente sensibilidad y agarre técnico"],
+        image: "/images/productos/productos index/Guantes de seguridad/Guante resistente al corte A5.png"
       },
       {
-        name: "Guante Anti-corte Nivel 5",
-        desc: "Máxima protección contra objetos afilados. Tejido de polietileno de alto desempeño con recubrimiento en palma.",
-        specs: ["Protección Nivel 5 ANSI/EN388", "Alta destreza y comodidad", "Lavable y reutilizable"],
-        image: "/images/productos/productos%20index/Guantes%20de%20seguridad/Guante%20de%20Polietileno%20anti%20corte%20nivel%205.png"
+        name: "Guante de Polietileno anti corte nivel 5",
+        desc: "Protección mecánica avanzada para entornos de manufactura. Fabricado con fibras de polietileno de alta resistencia que previenen cortes accidentales durante la manipulación de piezas.",
+        specs: ["Resistencia al corte Nivel 5", "Tejido transpirable de alto rendimiento", "Excelente ajuste ergonómico"],
+        image: "/images/productos/productos index/Guantes de seguridad/Guante de Polietileno anti corte nivel 5.png"
+      },
+      {
+        name: "Guante de Nitrilo Azul",
+        desc: "Barrera química y mecánica de alta resistencia. Libre de látex, ideal para procesos de limpieza, laboratorios y manejo de químicos.",
+        specs: ["Nitrilo de alto calibre", "Sin polvo y libre de látex", "Excelente sensibilidad táctil"],
+        image: "/images/productos/productos index/Guantes de seguridad/Guante de Nitrilo Azul.png"
       },
       {
         name: "Guante Nylon con Palma de Poliuretano",
-        desc: "Diseñado para ensambles de precisión. Ofrece excelente sensibilidad táctil y protección contra abrasión leve.",
-        specs: ["Tejido de Nylon transpirable", "Recubrimiento de PU en la palma", "Ajuste ergonómico"],
-        image: "/images/productos/productos%20index/Guantes%20de%20seguridad/Guante%20de%20nylon%20with%20palma%20de%20Poliuretano.png"
+        desc: "Diseñado para ensambles delicados y precisión. Ofrece una transpirabilidad superior y protección contra abrasiones leves.",
+        specs: ["Recubrimiento de PU microporoso", "Excelente agarre en seco", "Tejido de nylon sin costuras"],
+        image: "/images/productos/productos index/Guantes de seguridad/Guante de nylon con palma de Poliuretano.png"
       },
       {
-        name: "Guante con Recubrimiento de Nitrilo y Puño de Loneta",
-        desc: "Protección robusta para trabajos pesados. El puño de loneta facilita el quite rápido del guante en emergencias.",
-        specs: ["Recubrimiento de nitrilo pesado", "Puño de loneta de seguridad", "Resistente a aceites y grasas"],
-        image: "/images/productos/productos%20index/Guantes%20de%20seguridad/Guante%20de%20seguridad%20recubrimiento%20de%20nitrilo%2C%20with%20pu%C3%B1o%20de%20loneta.png"
+        name: "Guante Nylon con Palma de Nitrilo",
+        desc: "Versatilidad y durabilidad en un solo guante. El recubrimiento de nitrilo proporciona una barrera impermeable contra grasas y aceites.",
+        specs: ["Tratamiento antiderrapante", "Impermeable a aceites", "Ajuste ergonómico de precisión"],
+        image: "/images/productos/productos index/Guantes de seguridad/Guante de nylon con palma de nitrilo.png"
+      },
+      {
+        name: "Guante con Palma de Nitrilo y Puño de Loneta",
+        desc: "Protección pesada para manejo de materiales rugosos. Su puño de loneta permite un desprendimiento rápido en situaciones de emergencia.",
+        specs: ["Forro 100% Jersey de algodón", "Recubrimiento de nitrilo extra grueso", "Protección mecánica superior"],
+        image: "/images/productos/productos index/Guantes de seguridad/Guante de seguridad recubrimiento de nitrilo, con puño de loneta.png"
       }
     ]
   },
   "auditivos": {
     title: "Protección Auditiva",
-    description: "Sistemas de reducción de ruido industrial diseñados para preservar la salud auditiva de los operadores en entornos de alta intensidad sonora.",
-    heroImage: "/images/productos/productos%20index/auditivo.webp",
+    description: "Preservamos la salud auditiva de tu capital humano con equipos de reducción de ruido de alta tecnología y confort excepcional.",
+    heroImage: "/images/productos/productos index/auditivo.webp",
     items: [
       {
-        name: "3M PELTOR Optime Orejeras 98 H9A",
-        desc: "Orejeras de diadema ligera que proporcionan una reducción de ruido efectiva para entornos con niveles de ruido hasta 98 dBA.",
-        specs: ["Nivel de reducción de ruido (NRR): 25 dB", "Cojines rellenos de líquido/espuma", "Diadema de acero inoxidable"],
-        image: "/images/productos/productos%20index/Auditivos/3M%20PELTOR%20Optime%20Orejeras%2098%20H9A.webp"
+        name: "3M PELTOR Optime 98 H9A",
+        desc: "Orejeras de diadema con ingeniería acústica superior. Proveen una atenuación constante para ruidos industriales de alta frecuencia.",
+        specs: ["NRR de 25 dB", "Diadema de acero inoxidable", "Cojines de sellado ultra-suaves"],
+        image: "/images/fotos nuevas/Auditivos/3M PELTOR Optime Orejeras 98 H9A.webp"
       },
       {
-        name: "Alphas Tapones Auditivos Reutilizables",
-        desc: "Tapones de triple pestaña fabricados en material suave para un ajuste cómodo y seguro durante toda la jornada.",
-        specs: ["Triple pestaña para sellado óptimo", "Lavables y reutilizables", "Incluye estuche de transporte"],
-        image: "/images/productos/productos%20index/Auditivos/Alphas%20Tapones%20Auditivos%20Reutilizables.webp"
+        name: "Alphas Tapones Reutilizables",
+        desc: "Higiene y protección en un diseño de triple pestaña. Fabricados en material hipoalergénico para un ajuste hermético y cómodo.",
+        specs: ["Triple pestaña de sellado óptimo", "Material lavable y duradero", "Incluye estuche protector"],
+        image: "/images/fotos nuevas/Auditivos/Alphas Tapones Auditivos Reutilizables.webp"
       },
       {
-        name: "Tapón Reusable Libus Quantum",
-        desc: "Diseño ergonómico con cordón. Fabricado en silicona de grado médico para evitar irritaciones en el canal auditivo.",
-        specs: ["Material de silicona hipoalergénica", "NRR: 26 dB", "Cordón de seguridad incluido"],
-        image: "/images/productos/productos%20index/Auditivos/Tap%C3%B3n%20Reusable%20Libus%20Quantum.webp"
+        name: "Tapón Libus Quantum Reusable",
+        desc: "Protección portátil con cordón de seguridad. Silicona de grado médico que se adapta a la forma única del canal auditivo.",
+        specs: ["NRR de 26 dB", "Silicona hipoalergénica premium", "Cordón de alta visibilidad incluido"],
+        image: "/images/fotos nuevas/Auditivos/Tapón Reusable Libus Quantum.webp"
       }
     ]
   },
   "respiratoria": {
     title: "Protección Respiratoria",
-    description: "Mascarillas y respiradores certificados para filtrar partículas nocivas, vapores orgánicos y gases en procesos industriales.",
-    heroImage: "/images/productos/productos%20index/proteccion%20respiratoria.webp",
+    description: "Equipos de filtración avanzados para garantizar la pureza del aire inhalado. Protegemos la salud pulmonar de tus trabajadores contra polvos, gases y vapores nocivos.",
+    heroImage: "/images/productos/productos index/proteccion respiratoria.webp",
     items: [
       {
-        name: "Respiradores Reutilizables de Media Cara",
-        desc: "Sistemas de filtración dual para protección contra una amplia variedad de gases, vapores y partículas.",
-        specs: ["Diseño de media cara ergonómico", "Compatible con cartuchos serie 6000", "Válvula de exhalación para frescura"],
-        image: "/images/productos/productos%20index/Protecci%C3%B3n%20Respiratoria/Respiradores%20Reutilizables.webp"
+        name: "Respiradores Media Cara Reutilizables",
+        desc: "Sistemas de protección dual con sellado hermético. Compatibles con una amplia gama de cartuchos para diversos riesgos químicos y biológicos.",
+        specs: ["Material elastomérico hipoalergénico", "Válvula de exhalación de flujo rápido", "Arnés de sujeción ergonómico ajustable"],
+        image: "/images/fotos nuevas/Protección Respiratoria/Respiradores Reutilizables.webp"
       },
       {
         name: "Respiradores Desechables N95",
-        desc: "Mascarillas ligeras para filtración de partículas no aceitosas. Ideales para procesos de lijado, molienda y barrido.",
-        specs: ["Certificación NIOSH N95", "Clip nasal ajustable", "Bandas elásticas resistentes"],
-        image: "/images/productos/productos%20index/Protecci%C3%B3n%20Respiratoria/Respiradores%20Desechables.webp"
+        desc: "Filtración eficiente para partículas no aceitosas. Ligeros y confortables, ideales para procesos de lijado, construcción y manufactura general.",
+        specs: ["Certificación NIOSH N95", "Clip nasal de ajuste metálico", "Bajas resistencias a la respiración"],
+        image: "/images/fotos nuevas/Protección Respiratoria/Respiradores Desechables.webp"
       },
       {
         name: "Cubrebocas Desechable Tricapa",
-        desc: "Protección básica para higiene industrial. Fabricado con tres capas de tela no tejida para filtración bacteriana.",
-        specs: ["3 capas de filtración", "Ajuste elástico a la oreja", "Termosellado de alta calidad"],
-        image: "/images/productos/productos%20index/Protecci%C3%B3n%20Respiratoria/Cubrebocas%20Desechable.webp"
+        desc: "Protección higiénica de alta calidad. Fabricado con tecnología de termosellado y tres niveles de filtración para entornos de salud y alimentación.",
+        specs: ["Filtrado bacteriano eficiente", "Ajuste elástico suave", "100% libre de fibra de vidrio"],
+        image: "/images/fotos nuevas/Protección Respiratoria/Cubrebocas Desechable.webp"
       }
     ]
   },
   "ropa-antiestatica": {
-    title: "Ropa Antiestática",
-    description: "Indumentaria especializada para el control de descargas electrostáticas (ESD) en laboratorios electrónicos y áreas de manufactura sensible.",
-    heroImage: "/images/productos/productos%20index/ropa%20antiestatica.webp",
+    title: "Ropa Antiestática (ESD)",
+    description: "Control total de descargas electrostáticas para proteger la integridad de componentes electrónicos y procesos sensibles. Tecnología conductiva integrada.",
+    heroImage: "/images/productos/productos index/ropa antiestatica.webp",
     items: [
       {
         name: "Bata Antiestática ESD",
-        desc: "Prenda esencial para entornos controlados. Fabricada con filamentos de carbono para disipar la carga estática.",
-        specs: ["Material: Poliéster con fibra de carbono", "Bolsillos reforzados", "Ajuste en puños antiestático"],
-        image: "/images/productos/productos%20index/Ropa%20Antiest%C3%A1tica/Bata.webp"
+        desc: "Indumentaria crítica para laboratorios y líneas de ensamble electrónico. Disipa la carga estática de forma constante y segura.",
+        specs: ["Tejido con filamentos de carbono", "Disipación de carga certificada", "Bolsillos reforzados y cierre seguro"],
+        image: "/images/fotos nuevas/Ropa Antiestática/Bata.webp"
       },
       {
         name: "Overol Antiestático Completo",
-        desc: "Protección total para áreas limpias. Diseño de una sola pieza que minimiza la generación de partículas y garantiza el control ESD.",
-        specs: ["Diseño tipo overol con capucha", "Resistencia de superficie certificada", "Alta durabilidad"],
-        image: "/images/productos/productos%20index/Ropa%20Antiest%C3%A1tica/Overol.webp"
+        desc: "Protección máxima para áreas controladas. Diseño de una sola pieza que minimiza la contaminación y garantiza protección ESD total.",
+        specs: ["Ideal para cuartos limpios", "Resistencia superficial certificada", "Tejido de alta durabilidad y transpirable"],
+        image: "/images/fotos nuevas/Ropa Antiestática/Overol.webp"
       },
       {
-        name: "Gorra Antiestática",
-        desc: "Accesorio complementario para el control de cabello y protección estática en la zona craneal.",
-        specs: ["Ajuste elástico trasero", "Tejido con rejilla conductiva", "Ligera y fresca"],
-        image: "/images/productos/productos%20index/Ropa%20Antiest%C3%A1tica/Gorra.webp"
+        name: "Gorra Antiestática de Precisión",
+        desc: "Accesorio indispensable para el control de partículas y estática en áreas de manufactura de alta sensibilidad.",
+        specs: ["Ajuste elástico universal", "Rejilla conductiva integrada", "Ligera y diseñada para uso continuo"],
+        image: "/images/fotos nuevas/Ropa Antiestática/Gorra.webp"
       }
     ]
   },
   "uniformes": {
     title: "Ropa de Trabajo y Uniformes",
-    description: "Uniformes industriales robustos diseñados para el trabajo duro diario, manteniendo la comodidad y la imagen profesional de su equipo.",
-    heroImage: "/images/productos/productos%20index/ropa%20de%20trabajo%20y%20uniformes.webp",
+    description: "Resistencia y profesionalismo en cada prenda. Diseñamos uniformes industriales que soportan el uso rudo manteniendo una imagen corporativa impecable.",
+    heroImage: "/images/productos/productos index/ropa de trabajo y uniformes.webp",
     items: [
       {
         name: "Camisolas de Mezclilla y Gabardina",
-        desc: "Resistentes al desgaste y la abrasión. Disponibles en diversos pesos de tela según el tipo de industria.",
-        specs: ["Costuras reforzadas", "100% Algodón o Mezcla", "Botones de alta resistencia"],
-        image: "/images/productos/productos%20index/Ropa%20de%20Trabajo%20y%20Uniformes/Camisolas%20de%20MezclillaGabardina.webp"
+        desc: "Construcción robusta para los desafíos diarios. Ofrecen protección contra la abrasión y mantienen la frescura gracias a sus fibras naturales.",
+        specs: ["Mezclilla/Gabardina de alto gramaje", "Costuras dobles reforzadas", "Botones industriales de alta resistencia"],
+        image: "/images/fotos nuevas/Ropa de Trabajo y Uniformes/Camisolas de MezclillaGabardina.webp"
       },
       {
         name: "Overoles de Algodón Industrial",
-        desc: "Protección corporal completa con múltiples bolsillos funcionales para herramientas y accesorios.",
-        specs: ["Diseño ergonómico para movilidad", "Zipper frontal de uso pesado", "Múltiples bolsillos de carga"],
-        image: "/images/productos/productos%20index/Ropa%20de%20Trabajo%20y%20Uniformes/Overoles%20Algod%C3%B3n.webp"
+        desc: "Protección corporal completa con movilidad optimizada. Equipados con múltiples bolsillos funcionales para herramientas y accesorios.",
+        specs: ["Algodón 100% de alta densidad", "Cierre frontal reforzado", "Ajuste elástico en cintura"],
+        image: "/images/fotos nuevas/Ropa de Trabajo y Uniformes/Overoles Algodón.webp"
       },
       {
         name: "Pantalón de Mezclilla Industrial",
-        desc: "El estándar para el personal de mantenimiento y producción. Durabilidad extrema en las zonas de mayor roce.",
-        specs: ["Mezclilla de 14 oz", "Corte cómodo para trabajo", "Remaches en puntos de estrés"],
-        image: "/images/productos/productos%20index/Ropa%20de%20Trabajo%20y%20Uniformes/Pantal%C3%B3n%20de%20Mezclilla.webp"
+        desc: "El estándar en durabilidad. Diseñados para resistir los entornos de producción más exigentes sin comprometer la comodidad del usuario.",
+        specs: ["Mezclilla técnica de 14 oz", "Refuerzos en puntos de mayor tensión", "Corte amplio para movilidad táctica"],
+        image: "/images/fotos nuevas/Ropa de Trabajo y Uniformes/Pantalón de Mezclilla.webp"
       }
     ]
   },
   "ropa-medica": {
     title: "Ropa Médica y Desechable",
-    description: "Soluciones de barrera desechable para procesos que requieren altos niveles de higiene y control de contaminación cruzada.",
-    heroImage: "/images/productos/productos%20index/ropa%20medico.webp",
+    description: "Soluciones de barrera eficientes para entornos que exigen higiene total. Productos desechables de alta resistencia para el sector salud e industrial.",
+    heroImage: "/images/productos/productos index/ropa medico.webp",
     items: [
       {
         name: "Bata para Paciente Desechable",
-        desc: "Prenda ligera diseñada para un solo uso, garantizando higiene en entornos clínicos e industriales de alimentos.",
-        specs: ["Material: Polipropileno SMS", "Ajuste de cintas trasero", "Un solo tamaño universal"],
-        image: "/images/productos/productos%20index/ropa%20desechable/Bata%20Paciente.webp"
+        desc: "Higiene y privacidad garantizadas. Fabricada con materiales suaves al tacto que proporcionan una barrera efectiva contra contaminantes.",
+        specs: ["Polipropileno SMS de alta calidad", "Cierre de cintas ajustable", "Uso clínico e industrial"],
+        image: "/images/fotos nuevas/ropa desechable/Bata Paciente.webp"
       },
       {
         name: "Cubrezapato con Antiderrapante",
-        desc: "Evita la entrada de contaminantes externos a áreas controladas. Suela con banda antideslizante para seguridad del personal.",
-        specs: ["Bandas de hule antiderrapantes", "Material resistente a la fricción", "Elástico de ajuste superior"],
-        image: "/images/productos/productos%20index/ropa%20desechable/Cubrezapato%20sin%20o%20con%20Antiderrapante.webp"
+        desc: "Seguridad operativa en áreas críticas. Suela con tracción especial para evitar resbalones mientras se mantiene el control de contaminación.",
+        specs: ["Base con bandas antiderrapantes", "Material resistente al desgaste", "Ajuste elástico firme"],
+        image: "/images/fotos nuevas/ropa desechable/Cubrezapato sin o con Antiderrapante.webp"
       },
       {
         name: "Falda y Bikini Desechable",
-        desc: "Prendas complementarias para procesos específicos de higiene y estética corporal en entornos médicos.",
-        specs: ["Suave al tacto", "100% Higiénico", "Empaque individual"],
-        image: "/images/productos/productos%20index/ropa%20desechable/Falda%20y%20Bikini%20Desechable.webp"
+        desc: "Complementos de higiene para procedimientos específicos. Higiene y comodidad en presentaciones individuales selladas.",
+        specs: ["Material suave e hipoalergénico", "Máxima higiene por pieza", "Empaque individual protector"],
+        image: "/images/fotos nuevas/ropa desechable/Falda y Bikini Desechable.webp"
       }
     ]
   },
   "pintura": {
     title: "Consumibles para Pintura",
-    description: "Insumos técnicos para el tratamiento de superficies y procesos de acabado en la industria de la pintura automotriz e industrial.",
-    heroImage: "/images/productos/productos%20index/consumible%20para%20pintura.webp",
+    description: "Insumos técnicos para acabados de alta calidad. Todo lo necesario para procesos de preparación, aplicación y pulido en la industria.",
+    heroImage: "/images/productos/productos index/consumible para pintura.webp",
     items: [
       {
-        name: "Almohadillas para Amoladora Angular",
-        desc: "Accesorios para procesos de pulido y desbaste fino. Optimizan la uniformidad del acabado final.",
-        specs: ["Compatibilidad universal", "Alta durabilidad", "Ideal para metales y plásticos"],
-        image: "/images/productos/productos%20index/Consumibles%20para%20Pintura/Almohadillas%20para%20Amoladora%20Angular.webp"
+        name: "Almohadillas para Amoladora",
+        desc: "Optimiza tus procesos de pulido y desbaste fino. Accesorios duraderos diseñados para lograr superficies perfectamente uniformes.",
+        specs: ["Fijación segura de alta rotación", "Resistencia térmica superior", "Ideal para metales y plásticos"],
+        image: "/images/fotos nuevas/Consumibles para Pintura/Almohadillas para Amoladora Angular.webp"
       },
       {
-        name: "Lijas Industriales de Alta Calidad",
-        desc: "Amplia variedad de granos para procesos desde el desbaste pesado hasta el acabado espejo.",
-        specs: ["Granos disponibles: 80 a 2000", "Resistentes al agua", "Ideal para sector automotriz"],
-        image: "/images/productos/productos%20index/Consumibles%20para%20Pintura/Lijas.webp"
+        name: "Lijas Industriales de Precisión",
+        desc: "Amplia gama de granos para tratamientos de superficie desde el nivelado grueso hasta el acabado espejo.",
+        specs: ["Granos certificados de alta eficiencia", "Soporte resistente a la humedad", "Larga vida útil por pieza"],
+        image: "/images/fotos nuevas/Consumibles para Pintura/Lijas.webp"
       },
       {
-        name: "Trapo Tubular para Pintura",
-        desc: "Tejido especializado que no suelta pelusa, esencial para la limpieza previa a la aplicación de pintura.",
-        specs: ["100% Algodón de alta absorción", "Corte tubular sin costuras", "Libre de contaminantes"],
-        image: "/images/productos/productos%20index/Consumibles%20para%20Pintura/Trapo%20Tubular.webp"
+        name: "Trapo Tubular Pro-Pintado",
+        desc: "Limpieza crítica sin rastro de pelusa. Esencial para la preparación de superficies previa a la aplicación de recubrimientos.",
+        specs: ["Tejido 100% libre de contaminantes", "Alta capacidad de absorción", "Diseño tubular sin costuras"],
+        image: "/images/fotos nuevas/Consumibles para Pintura/Trapo Tubular.webp"
       }
     ]
   }

@@ -10,7 +10,7 @@
 }
 
 .subtitle {
-  color: var(--primary);
+  color: var(--accent);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -96,8 +96,8 @@
   right: -50px;
   width: 150px;
   height: 150px;
-  background: var(--primary);
-  opacity: 0.1;
+  background: var(--accent);
+  opacity: 0.15;
   border-radius: 50%;
 }
 
@@ -114,7 +114,7 @@
 }
 
 .cardHeader svg {
-  color: var(--primary);
+  color: var(--accent);
 }
 
 .mainCard p {

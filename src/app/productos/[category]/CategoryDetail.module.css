@@ -23,9 +23,12 @@
 }
 
 .imageCol {
-  background-color: #f1f5f9;
+  background-color: var(--white);
   position: relative;
   min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .imageBox {
@@ -44,14 +47,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--bg-dark);
+  color: var(--white);
 }
 
 .badge {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: rgba(13, 110, 253, 0.08);
-  color: var(--primary);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white);
   padding: 0.5rem 1rem;
   border-radius: 2rem;
   font-size: 0.8rem;
@@ -59,17 +64,18 @@
   text-transform: uppercase;
   margin-bottom: 1.5rem;
   width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .productName {
   font-size: 2.5rem;
-  color: var(--dark);
+  color: var(--white);
   margin-bottom: 1.5rem;
   line-height: 1.2;
 }
 
 .productDesc {
-  color: #64748b;
+  color: rgba(255, 255, 255, 0.85);
   font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 2.5rem;
@@ -82,7 +88,7 @@
 .specs h3 {
   font-size: 1.1rem;
   font-weight: 700;
-  color: var(--dark);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -98,12 +104,12 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  color: #475569;
+  color: var(--white);
   font-size: 1rem;
 }
 
 .checkIcon {
-  color: var(--primary);
+  color: var(--accent);
   flex-shrink: 0;
 }
 
@@ -118,13 +124,13 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  color: var(--secondary);
+  color: var(--white);
   font-weight: 600;
   font-size: 0.9rem;
 }
 
 .featureItem svg {
-  color: var(--primary);
+  color: var(--accent);
 }
 
 @media (max-width: 1024px) {

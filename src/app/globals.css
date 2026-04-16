@@ -1,16 +1,17 @@
 :root {
   /* Brand Colors */
-  --primary: #0d6efd;
+  --primary: #254f94;
   --secondary: #6c757d;
-  --dark: #324d69;
-  --light: #e6f4fb;
+  --dark: #254f94;
+  --accent: #ffcc00;
+  --light: #f1f5f9;
   --white: #ffffff;
   --black: #1a1a2e;
   
   /* Backgrounds */
   --bg-primary: var(--white);
   --bg-secondary: #f8fafc;
-  --bg-dark: var(--dark);
+  --bg-dark: var(--primary);
   
   /* Text Colors */
   --text-main: #1a1a2e;
@@ -110,9 +111,13 @@ section {
 }
 
 .btn-primary:hover {
-  background-color: #0b5ed7;
+  background-color: #243a50;
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+}
+
+.btn-primary svg {
+  color: var(--accent);
 }
 
 .btn-outline {

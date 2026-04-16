@@ -1,6 +1,6 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import HeroSlideshow from "@/components/home/HeroSlideshow";
+import HeroVideo from "@/components/home/HeroVideo";
 import AboutSection from "@/components/home/AboutSection";
 import ServicesSection from "@/components/home/ServicesSection";
 import MachinerySection from "@/components/home/MachinerySection";
@@ -17,14 +17,14 @@ export default function Home() {
     <>
       <Navbar />
       <main id="main-content">
-        <HeroSlideshow />
-        
-        <div id="nosotros">
-          <AboutSection />
-        </div>
+        <HeroVideo />
         
         <div id="servicios">
           <ServicesSection />
+        </div>
+
+        <div id="nosotros">
+          <AboutSection />
         </div>
         
         <div id="maquinaria">

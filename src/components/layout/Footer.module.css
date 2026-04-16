@@ -32,7 +32,7 @@
   left: 0;
   width: 40px;
   height: 2px;
-  background: var(--primary);
+  background: var(--accent);
 }
 
 .description {
@@ -59,8 +59,9 @@
 }
 
 .socials a:hover {
-  background: var(--primary);
+  background: var(--accent);
   transform: translateY(-3px);
+  color: var(--primary);
 }
 
 .links {
@@ -82,14 +83,14 @@
 }
 
 .links li a:hover {
-  color: var(--primary);
+  color: var(--accent);
   padding-left: 3px;
 }
 
 .linkIcon {
-  color: var(--primary);
+  color: var(--accent);
   flex-shrink: 0;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .contactList {
@@ -106,7 +107,7 @@
 }
 
 .icon {
-  color: var(--primary);
+  color: var(--accent);
   flex-shrink: 0;
 }
 

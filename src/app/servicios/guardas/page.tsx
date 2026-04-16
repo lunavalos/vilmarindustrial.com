@@ -6,45 +6,45 @@ import { Shield, Cog, CheckSquare, Package, ChevronRight } from "lucide-react";
 import styles from "./Guardas.module.css";
 
 const guards = [
-  { 
-    title: "Guardas Metálicas", 
+  {
+    title: "Guardas Metálicas",
     desc: "Protección resistente fabricada con acero de alta calidad frente a impactos y partículas.",
-    image: "/images/Tipos de guardados/G1.webp" 
+    image: "/images/Tipos de guardados/G1.webp"
   },
-  { 
-    title: "Guardas tipo Armadillo", 
+  {
+    title: "Guardas tipo Armadillo",
     desc: "Flexibles y resistentes, ideales para proteger movimientos lineales y mecanismos expuestos.",
-    image: "/images/Tipos de guardados/G2.webp" 
+    image: "/images/Tipos de guardados/G2.webp"
   },
-  { 
-    title: "Guardas Fuelle", 
+  {
+    title: "Guardas Fuelle",
     desc: "Telescópicas que se contraen como fuelle, protegiendo ejes de polvo y virutas.",
-    image: "/images/Tipos de guardados/G3.webp" 
+    image: "/images/Tipos de guardados/G3.webp"
   },
-  { 
-    title: "Fuelles Blindados", 
+  {
+    title: "Fuelles Blindados",
     desc: "Solución robusta contra impactos, chispas y partículas abrasivas extremas.",
-    image: "/images/Tipos de guardados/G4.webp" 
+    image: "/images/Tipos de guardados/G4.webp"
   },
-  { 
-    title: "Cortinas Retráctiles", 
+  {
+    title: "Cortinas Retráctiles",
     desc: "Versatilidad en espacios reducidos, combinando seguridad y funcionalidad compacta.",
-    image: "/images/Tipos de guardados/G5.webp" 
+    image: "/images/Tipos de guardados/G5.webp"
   },
-  { 
-    title: "Guardas Husillo", 
+  {
+    title: "Guardas Husillo",
     desc: "Protección específica para ejes roscados, manteniendo la precisión mecánica.",
-    image: "/images/Tipos de guardados/G6.webp" 
+    image: "/images/Tipos de guardados/G6.webp"
   },
-  { 
-    title: "Unidades de Pared", 
+  {
+    title: "Unidades de Pared",
     desc: "Sistemas montados sobre estructuras para resguardar zonas de trabajo completas.",
-    image: "/images/Tipos de guardados/G7.webp" 
+    image: "/images/Tipos de guardados/G7.webp"
   },
-  { 
-    title: "Cortinas de Aluminio", 
+  {
+    title: "Cortinas de Aluminio",
     desc: "Rígidas y estéticas, ideales para protección con bajo mantenimiento.",
-    image: "/images/Tipos de guardados/G8.webp" 
+    image: "/images/Tipos de guardados/G8.webp"
   }
 ];
 
@@ -60,8 +60,8 @@ export default function Guardas() {
     <>
       <Navbar />
       <main>
-        <PageHero 
-          title="Guardas Telescópicas" 
+        <PageHero
+          title="Guardas Telescópicas"
           subtitle="Ingeniería, manufactura y reparación de sistemas de protección para maquinaria industrial."
         />
 
@@ -71,16 +71,16 @@ export default function Guardas() {
               <div className={styles.introText}>
                 <h2 className={styles.sectionTitle}>¿Qué hacemos?</h2>
                 <p>
-                  Nos dedicamos a la ingeniería, manufactura, reparación y distribución de guardas móviles 
-                  para centros de maquinado con control numérico y máquinas convencionales. 
+                  Nos dedicamos a la ingeniería, manufactura, reparación y distribución de guardas móviles
+                  para centros de maquinado con control numérico y máquinas convencionales.
                   Protegemos la integridad de sus equipos y operadores.
                 </p>
                 <div className={styles.whatAreGuards}>
-                  <Shield size={24} className={styles.shieldIcon} />
+                  <Shield size={40} className={styles.shieldIcon} />
                   <div>
                     <h4>Escudos de Protección</h4>
                     <p>
-                      Las guardas protegen componentes internos de escoria sólida, solubles y refrigerantes, 
+                      Las guardas protegen componentes internos de escoria sólida, solubles y refrigerantes,
                       asegurando una vida útil más larga para su maquinaria.
                     </p>
                   </div>

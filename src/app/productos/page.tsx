@@ -10,68 +10,68 @@ const categories = [
   {
     id: "cascos",
     title: "Cascos de Seguridad",
-    image: "/images/productos/productos%20index/cascos/flamin%20casco%20ala%20completa.webp",
+    image: "/images/productos/productos index/cascos/flamin casco ala completa1.webp",
     description: "Protección craneal certificada para diversos entornos de trabajo rudo."
   },
   {
     id: "chalecos",
     title: "Chalecos de Seguridad",
-    image: "/images/productos/productos%20index/chalecos/CH.webp",
+    image: "/images/productos/productos index/chalecos/CH.webp",
     description: "Visibilidad máxima y seguridad para brigadistas y supervisores."
   },
   {
     id: "lentes",
     title: "Protección Ocular",
-    image: "/images/productos/productos%20index/lentes%20de%20seguridad.webp",
+    image: "/images/productos/productos index/lentes de seguridad.webp",
     description: "Lentes de seguridad con tecnología antivaho y protección UV premium."
   },
   {
     id: "zapatos",
     title: "Calzado Industrial",
-    image: "/images/productos/productos%20index/zapatos%20de%20seguridad.webp",
+    image: "/images/productos/productos index/zapatos de seguridad.webp",
     description: "Zapatos y botas con casquillo y suelas antiderrapantes de alta resistencia."
   },
   {
     id: "guantes",
     title: "Guantes de Seguridad",
-    image: "/images/productos/productos%20index/guantes%20de%20seguridad.webp",
+    image: "/images/productos/productos index/guantes de seguridad.webp",
     description: "Protección manual contra cortes, químicos y riesgos mecánicos."
   },
   {
     id: "auditivos",
     title: "Protección Auditiva",
-    image: "/images/productos/productos%20index/auditivo.webp",
+    image: "/images/productos/productos index/auditivo.webp",
     description: "Tapones y orejeras para la reducción efectiva de ruido industrial."
   },
   {
     id: "respiratoria",
     title: "Protección Respiratoria",
-    image: "/images/productos/productos%20index/proteccion%20respiratoria.webp",
+    image: "/images/productos/productos index/proteccion respiratoria.webp",
     description: "Respiradores y mascarillas para ambientes con polvos, gases y vapores."
   },
   {
     id: "ropa-antiestatica",
-    title: "Ropa Antiestática",
-    image: "/images/productos/productos%20index/ropa%20antiestatica.webp",
-    description: "Prendas ESD para control de descargas en ambientes sensibles."
+    title: "Ropa Antiestática (ESD)",
+    image: "/images/productos/productos index/ropa antiestatica.webp",
+    description: "Prendas especializadas para control de descargas en ambientes sensibles."
   },
   {
     id: "uniformes",
     title: "Ropa de Trabajo y Uniformes",
     description: "Camisolas, overoles y pantalones industriales de alta durabilidad.",
-    image: "/images/productos/productos%20index/ropa%20de%20trabajo%20y%20uniformes.webp"
+    image: "/images/productos/productos index/ropa de trabajo y uniformes.webp"
   },
   {
     id: "ropa-medica",
     title: "Ropa Médica y Desechable",
     description: "Batas, cubrezapatos y prendas desechables para higiene y seguridad.",
-    image: "/images/productos/productos%20index/ropa%20medico.webp"
+    image: "/images/productos/productos index/ropa medico.webp"
   },
   {
     id: "pintura",
     title: "Consumibles para Pintura",
     description: "Lijas, trapos especializados y accesorios para procesos de pintado.",
-    image: "/images/productos/productos%20index/consumible%20para%20pintura.webp"
+    image: "/images/productos/productos index/consumible para pintura.webp"
   }
 ];
 

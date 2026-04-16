@@ -7,32 +7,25 @@ const AboutSection = () => {
   return (
     <section className={styles.about} id="sobre-nosotros">
       <div className="container">
-        <div className={styles.grid}>
-          <div className={styles.imageCol}>
-            <div className={styles.imageWrapper}>
-              <Image
-                src="/images/imagenes variadas/logoN.webp"
-                alt="VILMAR Instalaciones"
-                width={600}
-                height={500}
-                className={styles.mainImg}
-              />
-              <div className={styles.experienceCard}>
-                <span className={styles.expNumber}>8+</span>
-                <span className={styles.expText}>Años de<br />Experiencia</span>
-              </div>
+        <div className={styles.topContent}>
+          <p className={styles.subtitle}>¿Quiénes Somos?</p>
+          <h2 className={styles.title}>VILMAR Industrial: Calidad y Precisión desde 2016</h2>
+          <p className={styles.description}>
+            VILMAR es una empresa 100% mexicana ubicada en Saltillo, Coahuila.
+            Nuestro principal objetivo es satisfacer las necesidades de nuestros clientes,
+            garantizando nuestro trabajo con calidad y buen funcionamiento en cada intervención.
+          </p>
+        </div>
+
+        <div className={styles.bottomLayout}>
+          <div className={styles.experienceBadge}>
+            <div className={styles.expBox}>
+              <span className={styles.expNumber}>8+</span>
+              <span className={styles.expText}>Años de<br />Experiencia</span>
             </div>
           </div>
 
-          <div className={styles.contentCol}>
-            <p className={styles.subtitle}>¿Quiénes Somos?</p>
-            <h2 className={styles.title}>VILMAR Industrial: Calidad y Precisión desde 2016</h2>
-            <p className={styles.description}>
-              VILMAR es una empresa 100% mexicana ubicada en Saltillo, Coahuila.
-              Nuestro principal objetivo es satisfacer las necesidades de nuestros clientes,
-              garantizando nuestro trabajo con calidad y buen funcionamiento en cada intervención.
-            </p>
-
+          <div className={styles.featuresAndBtns}>
             <ul className={styles.features}>
               <li>
                 <CheckCircle2 className={styles.icon} />

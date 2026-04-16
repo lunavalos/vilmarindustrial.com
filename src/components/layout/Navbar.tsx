@@ -3,11 +3,11 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { 
-  Menu, X, ChevronDown, 
-  Cpu, Shield, Settings, 
-  Wrench, Layers, Users, 
-  Image as ImageIcon, Phone, 
+import {
+  Menu, X, ChevronDown,
+  Cpu, Shield, Settings,
+  Wrench, Layers, Users,
+  Image as ImageIcon, Phone,
   Home, Info, Code, Zap, Package,
   Scissors, Droplets, Paintbrush, Wind, Stethoscope, Briefcase
 } from "lucide-react";
@@ -28,24 +28,24 @@ const Navbar = () => {
 
   const menuItems = [
     { title: "Inicio", href: "/", icon: <Home size={18} /> },
-    { 
-      title: "Nosotros", 
+    {
+      title: "Nosotros",
       href: "/nosotros",
       submenu: [
         { title: "Quiénes Somos", desc: "Nuestra historia y valores corporativos.", href: "/nosotros", icon: <Users size={20} /> },
         { title: "Galería", desc: "Explora nuestros casos de éxito.", href: "/galeria", icon: <ImageIcon size={20} /> },
       ]
     },
-    { 
-      title: "Servicios", 
+    {
+      title: "Servicios",
       href: "/servicios/programaciones",
       submenu: [
         { title: "Programaciones", desc: "Automatización y sistemas SCADA.", href: "/servicios/programaciones", icon: <Cpu size={20} /> },
         { title: "Guardas Telescópicas", desc: "Protección y reparación de maquinaria.", href: "/servicios/guardas", icon: <Shield size={20} /> },
       ]
     },
-    { 
-      title: "Productos", 
+    {
+      title: "Productos",
       href: "/productos",
       submenu: [
         { title: "EPP y Seguridad", desc: "Catálogo completo de protección.", href: "/productos", icon: <Package size={20} /> },
@@ -68,11 +68,11 @@ const Navbar = () => {
     <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <Image 
-            src="/logo vilmar.png" 
-            alt="VILMAR Industrial - Expertos en Maquinados y EPP" 
-            width={180} 
-            height={45} 
+          <Image
+            src="/vilmar.png"
+            alt="VILMAR Industrial - Expertos en Maquinados y EPP"
+            width={180}
+            height={45}
             priority
           />
         </Link>
@@ -80,15 +80,15 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className={styles.navLinks}>
           {menuItems.map((item) => (
-            <li 
-              key={item.title} 
+            <li
+              key={item.title}
               className={styles.navItem}
               onMouseEnter={() => item.submenu && setActiveDropdown(item.title)}
               onMouseLeave={() => setActiveDropdown(null)}
             >
               {item.submenu ? (
                 <div className={styles.navLinkWithIcon}>
-                  <Link href={item.href}>{item.title}</Link> 
+                  <Link href={item.href}>{item.title}</Link>
                   <ChevronDown size={14} className={activeDropdown === item.title ? styles.rotate : ""} />
                   <div className={`${styles.dropdown} ${activeDropdown === item.title ? styles.dropdownVisible : ""}`}>
                     <div className={styles.dropdownContent}>
@@ -117,8 +117,8 @@ const Navbar = () => {
           <Link href="/contacto" className="btn btn-primary" aria-label="Solicitar cotización">
             Cotizar
           </Link>
-          <button 
-            className={styles.mobileToggle} 
+          <button
+            className={styles.mobileToggle}
             onClick={() => setIsOpen(!isOpen)}
             aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
           >
@@ -134,17 +134,17 @@ const Navbar = () => {
             <div key={item.title} className={styles.mobileNavItem}>
               {item.submenu ? (
                 <>
-                  <button 
-                    className={styles.mobileNavLink} 
+                  <button
+                    className={styles.mobileNavLink}
                     onClick={() => toggleDropdown(item.title)}
                   >
                     {item.title} <ChevronDown size={16} className={activeDropdown === item.title ? styles.rotate : ""} />
                   </button>
                   <div className={`${styles.mobileSubmenu} ${activeDropdown === item.title ? styles.show : ""}`}>
                     {item.submenu.map((sub) => (
-                      <Link 
-                        key={sub.title} 
-                        href={sub.href} 
+                      <Link
+                        key={sub.title}
+                        href={sub.href}
                         className={styles.mobileSubItem}
                         onClick={() => setIsOpen(false)}
                       >
@@ -157,8 +157,8 @@ const Navbar = () => {
                   </div>
                 </>
               ) : (
-                <Link 
-                  href={item.href} 
+                <Link
+                  href={item.href}
                   className={styles.mobileNavLink}
                   onClick={() => setIsOpen(false)}
                 >
@@ -167,8 +167,8 @@ const Navbar = () => {
               )}
             </div>
           ))}
-          <Link 
-            href="/contacto" 
+          <Link
+            href="/contacto"
             className={`btn btn-primary ${styles.mobileBtn}`}
             onClick={() => setIsOpen(false)}
           >
