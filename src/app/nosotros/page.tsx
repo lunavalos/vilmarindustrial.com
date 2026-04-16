@@ -157,7 +157,7 @@ export default function Nosotros() {
 
               <div className={styles.imageCol}>
                 <Image
-                  src="/images/imagenes variadas/presencia.webp"
+                  src="/images/imagenes variadas/nosotros.webp"
                   alt="Operaciones VILMAR"
                   width={600}
                   height={400}
