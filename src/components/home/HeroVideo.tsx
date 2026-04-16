@@ -40,7 +40,7 @@ const HeroVideo = () => {
               con los más altos estándares desde 2016. Potenciamos la industria nacional.
             </p>
             <div className={styles.btns}>
-              <Link href="/servicios/programaciones" className="btn btn-primary">
+              <Link href="/servicios/programaciones" className="btn btn-secondary">
                 Nuestros Servicios <ArrowRight size={18} />
               </Link>
               <Link href="/contacto" className="btn btn-outline" style={{ color: "white", borderColor: "white" }}>

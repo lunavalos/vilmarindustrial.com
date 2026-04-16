@@ -98,6 +98,7 @@ const Footer = () => {
             TODOS LOS DERECHOS RESERVADOS - VILMAR Industrial © {currentYear}
           </div>
           <div className={styles.credits}>
+            <span>DESARROLLADO POR:</span>
             <a href="https://www.lunavalos.com/" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/credits-logo.png"
@@ -107,7 +108,6 @@ const Footer = () => {
                 className={styles.creditsLogo}
               />
             </a>
-            <span>DESARROLLADO POR:</span>
           </div>
         </div>
       </div>

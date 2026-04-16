@@ -10,7 +10,7 @@
 }
 
 .subtitle {
-  color: var(--accent);
+  color: var(--subtitles);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -96,8 +96,8 @@
   right: -50px;
   width: 150px;
   height: 150px;
-  background: var(--accent);
-  opacity: 0.15;
+  background: var(--lighter);
+  opacity: 0.25;
   border-radius: 50%;
 }
 
@@ -171,7 +171,7 @@
   .list {
     grid-template-columns: 1fr;
   }
-  
+
   .stats {
     flex-direction: column;
     gap: 1.5rem;
