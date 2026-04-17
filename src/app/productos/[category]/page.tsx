@@ -49,7 +49,7 @@ const CATEGORIES_DATA: Record<string, CategoryData> = {
   "chalecos": {
     title: "Chalecos de Seguridad",
     description: "Prendas de alta visibilidad que combinan seguridad y funcionalidad. Diseñados bajo normativas internacionales para garantizar la máxima protección en áreas de riesgo.",
-    heroImage: "/images/productos/productos index/chalecos/CH.webp",
+    heroImage: "/images/fotos nuevas/chalecos/chaleco portada.webp",
     items: [
       {
         name: "Chaleco de Supervisor",

@@ -16,13 +16,13 @@ const categories = [
   {
     id: "chalecos",
     title: "Chalecos de Seguridad",
-    image: "/images/productos/productos index/chalecos/CH.webp",
+    image: "/images/fotos nuevas/chalecos/chaleco portada.webp",
     description: "Visibilidad máxima y seguridad para brigadistas y supervisores."
   },
   {
     id: "lentes",
     title: "Protección Ocular",
-    image: "/images/productos/productos index/lentes de seguridad.webp",
+    image: "/images/fotos nuevas/lentes de seguridad/Sobrelentes 3M SecureFit.webp",
     description: "Lentes de seguridad con tecnología antivaho y protección UV premium."
   },
   {
@@ -40,7 +40,7 @@ const categories = [
   {
     id: "auditivos",
     title: "Protección Auditiva",
-    image: "/images/productos/productos index/auditivo.webp",
+    image: "/images/fotos nuevas/auditivos/3M PELTOR Optime Orejeras 98 H9A.webp",
     description: "Tapones y orejeras para la reducción efectiva de ruido industrial."
   },
   {
@@ -52,7 +52,7 @@ const categories = [
   {
     id: "ropa-antiestatica",
     title: "Ropa Antiestática (ESD)",
-    image: "/images/productos/productos index/ropa antiestatica.webp",
+    image: "/images/fotos nuevas/Ropa Antiestática/overol.webp",
     description: "Prendas especializadas para control de descargas en ambientes sensibles."
   },
   {
@@ -80,8 +80,8 @@ export default function ProductosPage() {
     <>
       <Navbar />
       <main>
-        <PageHero 
-          title="Catálogo de Productos Industrial" 
+        <PageHero
+          title="Catálogo de Productos Industrial"
           subtitle="Explora nuestra gama completa de soluciones en EPP y suministros técnicos de alta calidad."
         />
 
@@ -92,10 +92,10 @@ export default function ProductosPage() {
               {categories.map((cat) => (
                 <Link key={cat.id} href={`/productos/${cat.id}`} className={styles.card}>
                   <div className={styles.imageWrapper}>
-                    <Image 
-                      src={cat.image} 
-                      alt={`Categoría ${cat.title} - VILMAR Industrial`} 
-                      fill 
+                    <Image
+                      src={cat.image}
+                      alt={`Categoría ${cat.title} - VILMAR Industrial`}
+                      fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className={styles.image}
                     />
